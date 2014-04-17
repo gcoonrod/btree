@@ -85,7 +85,7 @@ function ParentFinder(node1, node2) {
 	}
 
 	//node1 and node2 should both be the root node at this point
-	//so long as they remain equal while we pop elements of the parent arrays
+	//so long as they remain equal while we pop elements off the parent arrays
 	//they still have common ancestry
 	while (node1 == node2 && node1Parents.length > 0 && node2Parents.length > 0) {
 		prevNode = node1;
